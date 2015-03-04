@@ -1,0 +1,18 @@
+{
+    "name": "loganhenson/paypal",
+    "description": "Easy PayPal PHP API",
+    "authors": [
+        {
+            "name": "Logan Henson",
+            "email": "logan@loganhenson.com"
+        }
+    ],
+    "require-dev": {
+        "slim/slim": "~2.6"
+    },
+    "autoload":{
+        "psr-4": {
+            "loganhenson\\PayPal\\": "src/"
+        }
+    }
+}
